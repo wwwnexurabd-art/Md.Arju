@@ -1,0 +1,6 @@
+{
+  "name": "NEXURA.BD — Premium Tech, Fashion & Lifestyle Store",
+  "description": "Shop premium tech gadgets, fashion hoodies, audio accessories, gaming consoles, and mobile electronics at NEXURA.BD. Fast delivery across Bangladesh with Cash on Delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

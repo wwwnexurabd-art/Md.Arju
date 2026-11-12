@@ -1,0 +1,1030 @@
+{
+  "admins": [
+    {
+      "id": "usr-admin-1",
+      "name": "Tanvir Hossain (Super Admin)",
+      "email": "admin@nexura.bd",
+      "passwordHash": "07e7b007b8b70471ab7c6ecfda5a8b80a630a3e4e4ddbb97adac6e193621398ce98ceb871901902496a40ade1be4af73f7b9c23bab4723704c1d2f8cc17d6b05",
+      "salt": "f6a728a3a0fb30c611fcf26848d4a862",
+      "role": "super_admin",
+      "status": "active",
+      "createdAt": "2026-10-28T07:13:28.016Z",
+      "lastLogin": "2026-11-12T15:48:33.624Z"
+    },
+    {
+      "id": "usr-manager-1",
+      "name": "Afsana Mim (Store Manager)",
+      "email": "manager@nexura.bd",
+      "passwordHash": "587cffb35eef8cc2db42b16e4c93565d83aac0b562002adc48b1b9540da80ad6c4c45b556371e52caf0942fbcf19608399a0984d4c99c25cced18cf6725c6de4",
+      "salt": "1fc0851a6397991cbf572345e99e5430",
+      "role": "store_manager",
+      "status": "active",
+      "createdAt": "2026-10-28T07:13:28.017Z"
+    },
+    {
+      "id": "usr-staff-1",
+      "name": "Kamrul Hasan (Fulfillment Staff)",
+      "email": "staff@nexura.bd",
+      "passwordHash": "1888b17959c07bd90ed9d72a9392762037e99dbdd52902f8bb668b63ded5430454ef21207ba40160feb4be8baa65bce5c4afea876b316c1aab12a44fa667882c",
+      "salt": "32c7e8a5516630e4d19c15ab98644b0c",
+      "role": "order_staff",
+      "status": "active",
+      "createdAt": "2026-10-28T07:13:28.017Z"
+    }
+  ],
+  "sessions": {
+    "14415b07ebf9b7d0e8f95040b29614660f970420e9a3401f17be7e0c555abcd2": {
+      "token": "14415b07ebf9b7d0e8f95040b29614660f970420e9a3401f17be7e0c555abcd2",
+      "userId": "usr-admin-1",
+      "email": "admin@nexura.bd",
+      "name": "Tanvir Hossain (Super Admin)",
+      "role": "super_admin",
+      "createdAt": 1793171617092,
+      "expiresAt": 1793258017092
+    },
+    "e5a5c55a5f99302b535a33196f604796c333c41b4b78ae09d23a7e6d7980aca4": {
+      "token": "e5a5c55a5f99302b535a33196f604796c333c41b4b78ae09d23a7e6d7980aca4",
+      "userId": "usr-admin-1",
+      "email": "admin@nexura.bd",
+      "name": "Tanvir Hossain (Super Admin)",
+      "role": "super_admin",
+      "createdAt": 1794498513625,
+      "expiresAt": 1794584913625
+    }
+  },
+  "products": [
+    {
+      "id": "prod-001",
+      "sku": "NX-HOODIE-PAISLEY",
+      "name": "Black Paisley Hoodie Combo",
+      "category": "Fashion & Clothing",
+      "price": 1200,
+      "originalPrice": 1450,
+      "discountPercent": 17,
+      "image": "/images/products/black-paisley-hoodie.jpg",
+      "images": [
+        "/images/products/black-paisley-hoodie.jpg",
+        "/images/products/solid-color-hoodie.jpg"
+      ],
+      "description": "Exclusive streetwear bundle featuring the Black Paisley graphic hoodie paired with matching premium bandana printed tee. Made from 320 GSM combed organic cotton fleece, pre-shrunk with ultra-durable reactive print.",
+      "inStock": true,
+      "stockCount": 43,
+      "featured": true,
+      "isOffer": true,
+      "rating": 4.8,
+      "reviewsCount": 38,
+      "variants": [
+        {
+          "type": "size",
+          "name": "Size",
+          "options": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ]
+        },
+        {
+          "type": "color",
+          "name": "Color",
+          "options": [
+            "Black Combo",
+            "Charcoal Blend"
+          ]
+        }
+      ],
+      "specifications": {
+        "Fabric": "320 GSM 100% Combed Cotton Fleece",
+        "Fit": "Relaxed Streetwear Silhouette",
+        "Wash Care": "Machine wash cold inside out",
+        "Combo Includes": "1x Paisley Hoodie + 1x Paisley Graphic T-Shirt",
+        "Origin": "Made in Bangladesh"
+      }
+    },
+    {
+      "id": "prod-002",
+      "sku": "NX-HOODIE-SOLID",
+      "name": "Premium Solid Color Hoodie",
+      "category": "Fashion & Clothing",
+      "price": 700,
+      "originalPrice": 815,
+      "discountPercent": 14,
+      "image": "/images/products/solid-color-hoodie.jpg",
+      "images": [
+        "/images/products/solid-color-hoodie.jpg",
+        "/images/products/black-paisley-hoodie.jpg"
+      ],
+      "description": "Everyday essential hoodie crafted from plush 300 GSM brushed fleece. Features reinforced kangaroo pocket, double-layered hood with braided drawstrings, and ribbed cuffs and hem.",
+      "inStock": true,
+      "stockCount": 120,
+      "featured": true,
+      "isOffer": true,
+      "rating": 4.7,
+      "reviewsCount": 64,
+      "variants": [
+        {
+          "type": "color",
+          "name": "Color",
+          "options": [
+            "Navy Blue",
+            "Jet Black",
+            "Chocolate Brown",
+            "Heather Grey"
+          ]
+        },
+        {
+          "type": "size",
+          "name": "Size",
+          "options": [
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "specifications": {
+        "Material": "80% Cotton, 20% Polyester Anti-Pilling Fleece",
+        "GSM": "300 GSM Heavyweight",
+        "Hood": "Double lined with metal eyelets",
+        "Seams": "Double-needle flatlock stitching"
+      }
+    },
+    {
+      "id": "prod-003",
+      "sku": "NX-AUDIO-BOYAMW6",
+      "name": "BOYA BY-MW6 Wireless Microphone",
+      "category": "Audio & Microphones",
+      "price": 1500,
+      "originalPrice": 1500,
+      "discountPercent": 0,
+      "image": "/images/products/boya-microphone.jpg",
+      "images": [
+        "/images/products/boya-microphone.jpg"
+      ],
+      "description": "Dual-channel ultra-compact 2.4GHz wireless microphone system for smartphone content creators, vloggers, and live streamers. Features intelligent DSP noise reduction, 50-meter stable transmission, and up to 10 hours battery life with charging case.",
+      "inStock": true,
+      "stockCount": 28,
+      "featured": true,
+      "isOffer": true,
+      "rating": 4.9,
+      "reviewsCount": 52,
+      "variants": [
+        {
+          "type": "color",
+          "name": "Connector Type",
+          "options": [
+            "Type-C for Android",
+            "Lightning for iPhone"
+          ]
+        }
+      ],
+      "specifications": {
+        "Transmission": "2.4GHz Digital Frequency",
+        "Operating Range": "Up to 50m (obstacle-free)",
+        "Battery Life": "10h transmitter, 30h with charging case",
+        "Audio Quality": "48kHz / 16bit lossless DSP noise cancellation",
+        "Latency": "< 15ms"
+      }
+    },
+    {
+      "id": "prod-004",
+      "sku": "NX-GAME-J36ULTRA",
+      "name": "J36 Ultra Retro Game Console",
+      "category": "Gaming Accessories",
+      "price": 5100,
+      "originalPrice": 5800,
+      "discountPercent": 12,
+      "image": "/images/products/j36-retro-console.jpg",
+      "images": [
+        "/images/products/j36-retro-console.jpg"
+      ],
+      "description": "High-performance handheld retro arcade console loaded with 15,000+ classic games across PS1, GBA, NES, SNES, and Arcade emulators. Features a crisp 3.5-inch IPS display, dual analog thumbsticks, and TV-out HDMI connectivity.",
+      "inStock": true,
+      "stockCount": 15,
+      "featured": true,
+      "isOffer": true,
+      "rating": 4.9,
+      "reviewsCount": 41,
+      "variants": [
+        {
+          "type": "color",
+          "name": "Body Color",
+          "options": [
+            "Matte White",
+            "Stealth Black",
+            "Retro Grey"
+          ]
+        }
+      ],
+      "specifications": {
+        "Screen": "3.5 inch IPS Full-view OCA 640x480 Display",
+        "Storage": "64GB TF Card Preloaded (Expandable to 256GB)",
+        "Processor": "Quad-core 64-bit Cortex-A35",
+        "Battery": "3500mAh Li-polymer (6-8 hours play)",
+        "Outputs": "Mini HDMI TV Out, 3.5mm Headphone Jack, OTG"
+      }
+    },
+    {
+      "id": "prod-005",
+      "sku": "NX-MOBILE-HOCOCA6",
+      "name": "Hoco CA6 Glacier Phone Cooler",
+      "category": "Mobile Accessories",
+      "price": 1150,
+      "originalPrice": 1500,
+      "discountPercent": 23,
+      "image": "/images/products/hoco-phone-cooler.jpg",
+      "images": [
+        "/images/products/hoco-phone-cooler.jpg"
+      ],
+      "description": "Semiconductor Peltier magnetic cooler for gaming smartphones. Drops mobile CPU temperature by up to 25°C in seconds to eliminate thermal throttling and FPS drops during PUBG, Free Fire, and heavy recording. Includes dynamic RGB LED aura.",
+      "inStock": true,
+      "stockCount": 60,
+      "featured": true,
+      "isOffer": true,
+      "rating": 4.6,
+      "reviewsCount": 29,
+      "variants": [
+        {
+          "type": "color",
+          "name": "Mounting Style",
+          "options": [
+            "MagSafe Magnetic + Clip Combo"
+          ]
+        }
+      ],
+      "specifications": {
+        "Cooling Mechanism": "Semiconductor Thermoelectric Peltier Chip",
+        "Fan Speed": "7000 RPM Silent Turbo Turbine",
+        "RGB Lighting": "Custom Spectrum Breathing Ring",
+        "Power Input": "5V/2A Type-C Interface",
+        "Compatibility": "Universal 67mm-88mm Android & iPhone"
+      }
+    },
+    {
+      "id": "prod-006",
+      "sku": "NX-AUDIO-HOCOM105",
+      "name": "Hoco M105 Earphones with Mic",
+      "category": "Audio & Microphones",
+      "price": 550,
+      "originalPrice": 750,
+      "discountPercent": 27,
+      "image": "/images/products/hoco-earphones.jpg",
+      "images": [
+        "/images/products/hoco-earphones.jpg"
+      ],
+      "description": "Ergonomic in-ear wired gaming & music earphones with high-definition omnidirectional microphone, tangle-resistant reinforced TPE cable, and 10mm composite biological diaphragm for punchy deep bass and crystalline treble.",
+      "inStock": true,
+      "stockCount": 85,
+      "featured": true,
+      "isOffer": true,
+      "rating": 4.5,
+      "reviewsCount": 78,
+      "variants": [
+        {
+          "type": "color",
+          "name": "Color Accent",
+          "options": [
+            "Black & Red",
+            "All Black"
+          ]
+        }
+      ],
+      "specifications": {
+        "Driver Unit": "10mm Neodymium Dynamic Driver",
+        "Connector": "3.5mm Gold-plated Audio Jack",
+        "Cable Length": "1.2m Tangle-free Elastic TPE",
+        "Microphone": "In-line HD Mic with Multi-function Controller",
+        "Frequency Response": "20Hz - 20,000Hz"
+      }
+    },
+    {
+      "id": "prod-007",
+      "sku": "NX-TECH-SMARTWATCH",
+      "name": "Smartwatch Ultra Titanium Edition",
+      "category": "Electronics & Gadgets",
+      "price": 3850,
+      "originalPrice": 4500,
+      "discountPercent": 14,
+      "image": "/images/products/smartwatch-ultra.jpg",
+      "images": [
+        "/images/products/smartwatch-ultra.jpg"
+      ],
+      "description": "Rugged titanium aerospace alloy casing smartwatch with always-on AMOLED high-brightness display, Bluetooth calling with dual speaker, heart rate and SpO2 sensor, and IP68 waterproof rating.",
+      "inStock": true,
+      "stockCount": 30,
+      "featured": true,
+      "isNewArrival": true,
+      "rating": 4.9,
+      "reviewsCount": 31,
+      "variants": [
+        {
+          "type": "color",
+          "name": "Strap Color",
+          "options": [
+            "Ocean Orange",
+            "Titanium Black",
+            "Alpine Green"
+          ]
+        }
+      ],
+      "specifications": {
+        "Screen": "2.02\" High Definition AMOLED Display (480x520)",
+        "Battery": "420mAh, 7-10 Days standby",
+        "Waterproof": "IP68 Certified Water & Dust Resistant",
+        "Health Sensors": "Dynamic Heart Rate, Blood Oxygen, Sleep Tracker",
+        "Calling": "Bluetooth HD Voice Call & Phonebook Sync"
+      }
+    },
+    {
+      "id": "prod-008",
+      "sku": "NX-GAME-KEYBOARD65",
+      "name": "RGB Mechanical 65% Gaming Keyboard",
+      "category": "Gaming Accessories",
+      "price": 3200,
+      "originalPrice": 3800,
+      "discountPercent": 16,
+      "image": "/images/products/gaming-keyboard.jpg",
+      "images": [
+        "/images/products/gaming-keyboard.jpg"
+      ],
+      "description": "Compact 65% hot-swappable mechanical keyboard featuring factory-lubed linear switches, sound dampening silicon foam, south-facing per-key RGB backlighting, and braided detachable coiled aviator cable.",
+      "inStock": true,
+      "stockCount": 24,
+      "featured": true,
+      "isNewArrival": true,
+      "rating": 4.8,
+      "reviewsCount": 22,
+      "variants": [
+        {
+          "type": "color",
+          "name": "Switch Type",
+          "options": [
+            "Linear Red Switch (Quiet & Fast)",
+            "Tactile Brown Switch (Balanced)"
+          ]
+        }
+      ],
+      "specifications": {
+        "Layout": "68 Keys 65% Form Factor",
+        "Switches": "Hot-swappable 3/5-pin Switch Sockets",
+        "Keycaps": "Double-shot PBT Cherry Profile",
+        "Lighting": "18 Pre-set Dynamic RGB Modes",
+        "Connectivity": "Detachable Type-C Coiled Cable"
+      }
+    },
+    {
+      "id": "prod-009",
+      "sku": "NX-MOB-MAGPB10",
+      "name": "Magnetic Wireless Power Bank 10000mAh",
+      "category": "Mobile Accessories",
+      "price": 1850,
+      "originalPrice": 2200,
+      "discountPercent": 16,
+      "image": "/images/products/magnetic-powerbank.jpg",
+      "images": [
+        "/images/products/magnetic-powerbank.jpg"
+      ],
+      "description": "Slimline magnetic wireless power bank with 15W Qi fast charging and 20W PD Type-C bidirectional port. Strong N52 neodymium magnet snap design fits seamlessly on iPhone 12/13/14/15/16 and Qi compatible Android phones.",
+      "inStock": true,
+      "stockCount": 40,
+      "featured": true,
+      "isNewArrival": true,
+      "rating": 4.7,
+      "reviewsCount": 45,
+      "variants": [
+        {
+          "type": "color",
+          "name": "Finish",
+          "options": [
+            "Matte Slate Grey",
+            "Deep Forest Navy"
+          ]
+        }
+      ],
+      "specifications": {
+        "Capacity": "10,000mAh / 3.85V (38.5Wh)",
+        "Wireless Output": "5W / 7.5W / 10W / 15W Max",
+        "Wired Output": "USB-C PD 20W Fast Charging",
+        "Safety": "Over-voltage, Over-current & Short-circuit protection",
+        "Weight": "182 grams ultra-portable"
+      }
+    },
+    {
+      "id": "prod-010",
+      "sku": "NX-AUD-NOIRNC1",
+      "name": "ANC Noise Cancelling Wireless Headphones",
+      "category": "Audio & Microphones",
+      "price": 4200,
+      "originalPrice": 5000,
+      "discountPercent": 16,
+      "image": "/images/products/anc-headphones.jpg",
+      "images": [
+        "/images/products/anc-headphones.jpg"
+      ],
+      "description": "Studio-grade hybrid active noise cancelling over-ear headphones with 40mm titanium drivers, ambient transparency mode, ultra-soft memory foam protein leather earcups, and up to 45 hours playback time.",
+      "inStock": true,
+      "stockCount": 18,
+      "featured": true,
+      "isOffer": true,
+      "rating": 4.9,
+      "reviewsCount": 36,
+      "variants": [
+        {
+          "type": "color",
+          "name": "Color",
+          "options": [
+            "Matte Noir Black",
+            "Gold Accented Midnight"
+          ]
+        }
+      ],
+      "specifications": {
+        "Active Noise Cancellation": "-38dB Hybrid ANC Depth",
+        "Drivers": "40mm Custom Titanium Bio-Diaphragm",
+        "Battery Life": "45h (ANC Off) / 32h (ANC On)",
+        "Bluetooth": "v5.3 with AAC and SBC codec support",
+        "Charging": "USB-C Quick Charge (10 min gives 5 hours)"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-54363",
+      "orderNumber": "NX-54363",
+      "date": "2026-10-28T14:15:44.734Z",
+      "paymentStatus": "Pending Verification",
+      "status": "Pending",
+      "history": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-10-28T14:15:44.734Z",
+          "updatedBy": "Customer Checkout"
+        }
+      ],
+      "items": [
+        {
+          "product": {
+            "id": "prod-001",
+            "name": "Test Hoodie",
+            "price": 1200
+          },
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "Another User",
+        "phone": "01788990022",
+        "division": "Dhaka",
+        "district": "Dhaka",
+        "thana": "Dhanmondi",
+        "streetAddress": "Road 28"
+      },
+      "deliveryArea": "inside_dhaka",
+      "deliveryCharge": 60,
+      "subtotal": 1200,
+      "discount": 0,
+      "total": 1260,
+      "paymentMethod": "bkash"
+    },
+    {
+      "id": "ord-31614",
+      "orderNumber": "NX-31614",
+      "date": "2026-10-28T14:15:35.068Z",
+      "paymentStatus": "Pending Verification",
+      "status": "Pending",
+      "history": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-10-28T14:15:35.068Z",
+          "updatedBy": "Customer Checkout"
+        }
+      ],
+      "items": [
+        {
+          "product": {
+            "id": "prod-001",
+            "name": "Test Hoodie",
+            "price": 1200
+          },
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "Fahim Shahriar",
+        "phone": "01788990011",
+        "division": "Dhaka",
+        "district": "Dhaka",
+        "thana": "Dhanmondi",
+        "streetAddress": "Road 27"
+      },
+      "deliveryArea": "inside_dhaka",
+      "deliveryCharge": 60,
+      "subtotal": 1200,
+      "discount": 0,
+      "total": 1260,
+      "paymentMethod": "bkash"
+    },
+    {
+      "id": "ord-84291",
+      "orderNumber": "NX-84291",
+      "date": "2026-10-28T03:13:28.017Z",
+      "items": [
+        {
+          "product": {
+            "id": "prod-001",
+            "sku": "NX-HOODIE-PAISLEY",
+            "name": "Black Paisley Hoodie Combo",
+            "category": "Fashion & Clothing",
+            "price": 1200,
+            "originalPrice": 1450,
+            "discountPercent": 17,
+            "image": "/images/products/black-paisley-hoodie.jpg",
+            "images": [
+              "/images/products/black-paisley-hoodie.jpg",
+              "/images/products/solid-color-hoodie.jpg"
+            ],
+            "description": "Exclusive streetwear bundle featuring the Black Paisley graphic hoodie paired with matching premium bandana printed tee. Made from 320 GSM combed organic cotton fleece, pre-shrunk with ultra-durable reactive print.",
+            "inStock": true,
+            "stockCount": 45,
+            "featured": true,
+            "isOffer": true,
+            "rating": 4.8,
+            "reviewsCount": 38,
+            "variants": [
+              {
+                "type": "size",
+                "name": "Size",
+                "options": [
+                  "M",
+                  "L",
+                  "XL",
+                  "XXL"
+                ]
+              },
+              {
+                "type": "color",
+                "name": "Color",
+                "options": [
+                  "Black Combo",
+                  "Charcoal Blend"
+                ]
+              }
+            ],
+            "specifications": {
+              "Fabric": "320 GSM 100% Combed Cotton Fleece",
+              "Fit": "Relaxed Streetwear Silhouette",
+              "Wash Care": "Machine wash cold inside out",
+              "Combo Includes": "1x Paisley Hoodie + 1x Paisley Graphic T-Shirt",
+              "Origin": "Made in Bangladesh"
+            }
+          },
+          "quantity": 1,
+          "selectedSize": "L",
+          "selectedColor": "Black Combo"
+        }
+      ],
+      "subtotal": 1200,
+      "deliveryCharge": 60,
+      "discount": 0,
+      "total": 1260,
+      "shippingAddress": {
+        "fullName": "Tanvir Hossain",
+        "phone": "01712345678",
+        "division": "Dhaka",
+        "district": "Dhaka",
+        "thana": "Dhanmondi",
+        "streetAddress": "House 32, Road 9/A, Dhanmondi R/A"
+      },
+      "deliveryArea": "inside_dhaka",
+      "paymentMethod": "cod",
+      "paymentStatus": "Unpaid",
+      "status": "Shipped",
+      "notes": "Please call before arrival",
+      "history": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-10-27T11:13:28.017Z",
+          "updatedBy": "System"
+        },
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-10-27T17:13:28.017Z",
+          "updatedBy": "admin@nexura.bd",
+          "note": "Customer confirmed phone call"
+        },
+        {
+          "status": "Processing",
+          "timestamp": "2026-10-27T23:13:28.017Z",
+          "updatedBy": "staff@nexura.bd",
+          "note": "Package quality-checked and sealed"
+        },
+        {
+          "status": "Shipped",
+          "timestamp": "2026-10-28T03:13:28.017Z",
+          "updatedBy": "staff@nexura.bd",
+          "note": "Handed over to Steadfast courier"
+        }
+      ]
+    },
+    {
+      "id": "ord-84110",
+      "orderNumber": "NX-84110",
+      "date": "2026-10-27T03:13:28.017Z",
+      "items": [
+        {
+          "product": {
+            "id": "prod-003",
+            "sku": "NX-AUDIO-BOYAMW6",
+            "name": "BOYA BY-MW6 Wireless Microphone",
+            "category": "Audio & Microphones",
+            "price": 1500,
+            "originalPrice": 1800,
+            "discountPercent": 17,
+            "image": "/images/products/boya-microphone.jpg",
+            "images": [
+              "/images/products/boya-microphone.jpg"
+            ],
+            "description": "Dual-channel ultra-compact 2.4GHz wireless microphone system for smartphone content creators, vloggers, and live streamers. Features intelligent DSP noise reduction, 50-meter stable transmission, and up to 10 hours battery life with charging case.",
+            "inStock": true,
+            "stockCount": 28,
+            "featured": true,
+            "isOffer": true,
+            "rating": 4.9,
+            "reviewsCount": 52,
+            "variants": [
+              {
+                "type": "color",
+                "name": "Connector Type",
+                "options": [
+                  "Type-C for Android",
+                  "Lightning for iPhone"
+                ]
+              }
+            ],
+            "specifications": {
+              "Transmission": "2.4GHz Digital Frequency",
+              "Operating Range": "Up to 50m (obstacle-free)",
+              "Battery Life": "10h transmitter, 30h with charging case",
+              "Audio Quality": "48kHz / 16bit lossless DSP noise cancellation",
+              "Latency": "< 15ms"
+            }
+          },
+          "quantity": 1,
+          "selectedColor": "Type-C for Android"
+        }
+      ],
+      "subtotal": 1500,
+      "deliveryCharge": 100,
+      "discount": 0,
+      "total": 1600,
+      "shippingAddress": {
+        "fullName": "Afsana Mim",
+        "phone": "01898765432",
+        "division": "Chattogram",
+        "district": "Chattogram",
+        "thana": "Agrabad",
+        "streetAddress": "Commercial Area, Block B, Agrabad"
+      },
+      "deliveryArea": "outside_dhaka",
+      "paymentMethod": "bkash",
+      "paymentStatus": "Paid",
+      "status": "Delivered",
+      "notes": "",
+      "history": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-10-26T07:13:28.017Z",
+          "updatedBy": "System"
+        },
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-10-26T15:13:28.017Z",
+          "updatedBy": "manager@nexura.bd",
+          "note": "bKash TrxID verified"
+        },
+        {
+          "status": "Shipped",
+          "timestamp": "2026-10-27T01:13:28.017Z",
+          "updatedBy": "staff@nexura.bd"
+        },
+        {
+          "status": "Delivered",
+          "timestamp": "2026-10-27T03:13:28.017Z",
+          "updatedBy": "courier_api",
+          "note": "Delivered to recipient with signature"
+        }
+      ]
+    },
+    {
+      "id": "ord-84005",
+      "orderNumber": "NX-84005",
+      "date": "2026-10-28T05:13:28.017Z",
+      "items": [
+        {
+          "product": {
+            "id": "prod-004",
+            "sku": "NX-GAME-J36ULTRA",
+            "name": "J36 Ultra Retro Game Console",
+            "category": "Gaming Accessories",
+            "price": 5100,
+            "originalPrice": 5800,
+            "discountPercent": 12,
+            "image": "/images/products/j36-retro-console.jpg",
+            "images": [
+              "/images/products/j36-retro-console.jpg"
+            ],
+            "description": "High-performance handheld retro arcade console loaded with 15,000+ classic games across PS1, GBA, NES, SNES, and Arcade emulators. Features a crisp 3.5-inch IPS display, dual analog thumbsticks, and TV-out HDMI connectivity.",
+            "inStock": true,
+            "stockCount": 15,
+            "featured": true,
+            "isOffer": true,
+            "rating": 4.9,
+            "reviewsCount": 41,
+            "variants": [
+              {
+                "type": "color",
+                "name": "Body Color",
+                "options": [
+                  "Matte White",
+                  "Stealth Black",
+                  "Retro Grey"
+                ]
+              }
+            ],
+            "specifications": {
+              "Screen": "3.5 inch IPS Full-view OCA 640x480 Display",
+              "Storage": "64GB TF Card Preloaded (Expandable to 256GB)",
+              "Processor": "Quad-core 64-bit Cortex-A35",
+              "Battery": "3500mAh Li-polymer (6-8 hours play)",
+              "Outputs": "Mini HDMI TV Out, 3.5mm Headphone Jack, OTG"
+            }
+          },
+          "quantity": 1,
+          "selectedColor": "Matte White"
+        }
+      ],
+      "subtotal": 5100,
+      "deliveryCharge": 60,
+      "discount": 0,
+      "total": 5160,
+      "shippingAddress": {
+        "fullName": "Rahim Uddin",
+        "phone": "01912344321",
+        "division": "Dhaka",
+        "district": "Dhaka",
+        "thana": "Uttara",
+        "streetAddress": "Sector 4, Road 11, House 24"
+      },
+      "deliveryArea": "inside_dhaka",
+      "paymentMethod": "cod",
+      "paymentStatus": "Unpaid",
+      "status": "Pending",
+      "notes": "Call before 5 PM",
+      "history": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-10-28T05:13:28.017Z",
+          "updatedBy": "Customer Checkout"
+        }
+      ]
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-1",
+      "fullName": "Tanvir Hossain",
+      "phone": "01712345678",
+      "email": "tanvir@example.com",
+      "totalOrders": 1,
+      "totalSpent": 1260,
+      "division": "Dhaka",
+      "district": "Dhaka",
+      "thana": "Dhanmondi",
+      "address": "House 32, Road 9/A, Dhanmondi R/A",
+      "firstOrderDate": "2026-10-26T14:30:00Z",
+      "lastOrderDate": "2026-10-26T14:30:00Z",
+      "internalNotes": "VIP Customer, always prefers COD delivery in evening."
+    },
+    {
+      "id": "cust-2",
+      "fullName": "Afsana Mim",
+      "phone": "01898765432",
+      "email": "afsana@example.com",
+      "totalOrders": 1,
+      "totalSpent": 1600,
+      "division": "Chattogram",
+      "district": "Chattogram",
+      "thana": "Agrabad",
+      "address": "Commercial Area, Block B, Agrabad",
+      "firstOrderDate": "2026-10-25T11:15:00Z",
+      "lastOrderDate": "2026-10-25T11:15:00Z",
+      "internalNotes": "Prompt bKash payer, friendly communication."
+    },
+    {
+      "id": "cust-3",
+      "fullName": "Rahim Uddin",
+      "phone": "01912344321",
+      "totalOrders": 1,
+      "totalSpent": 5160,
+      "division": "Dhaka",
+      "district": "Dhaka",
+      "thana": "Uttara",
+      "address": "Sector 4, Road 11, House 24",
+      "firstOrderDate": "2026-10-28T05:00:00Z",
+      "lastOrderDate": "2026-10-28T05:00:00Z",
+      "internalNotes": "Requested delivery before 5 PM."
+    },
+    {
+      "id": "cust-1793196935069",
+      "fullName": "Fahim Shahriar",
+      "phone": "01788990011",
+      "totalOrders": 1,
+      "totalSpent": 1260,
+      "division": "Dhaka",
+      "district": "Dhaka",
+      "thana": "Dhanmondi",
+      "address": "Road 27",
+      "firstOrderDate": "2026-10-28T14:15:35.068Z",
+      "lastOrderDate": "2026-10-28T14:15:35.068Z"
+    },
+    {
+      "id": "cust-1793196944734",
+      "fullName": "Another User",
+      "phone": "01788990022",
+      "totalOrders": 1,
+      "totalSpent": 1260,
+      "division": "Dhaka",
+      "district": "Dhaka",
+      "thana": "Dhanmondi",
+      "address": "Road 28",
+      "firstOrderDate": "2026-10-28T14:15:44.734Z",
+      "lastOrderDate": "2026-10-28T14:15:44.734Z"
+    }
+  ],
+  "inventoryLogs": [
+    {
+      "id": "inv-1793196944734-53",
+      "timestamp": "2026-10-28T14:15:44.734Z",
+      "productId": "prod-001",
+      "productName": "Black Paisley Hoodie Combo",
+      "previousStock": 44,
+      "newStock": 43,
+      "change": -1,
+      "reason": "Order Placed",
+      "adminEmail": "checkout"
+    },
+    {
+      "id": "inv-1793196935068-988",
+      "timestamp": "2026-10-28T14:15:35.068Z",
+      "productId": "prod-001",
+      "productName": "Black Paisley Hoodie Combo",
+      "previousStock": 45,
+      "newStock": 44,
+      "change": -1,
+      "reason": "Order Placed",
+      "adminEmail": "checkout"
+    },
+    {
+      "id": "log-1",
+      "productId": "prod-001",
+      "productName": "Black Paisley Hoodie Combo",
+      "previousStock": 50,
+      "newStock": 45,
+      "change": -5,
+      "reason": "Order Placed",
+      "adminEmail": "system",
+      "timestamp": "2026-10-28T07:13:28.017Z"
+    },
+    {
+      "id": "log-2",
+      "productId": "prod-004",
+      "productName": "J36 Ultra Retro Game Console",
+      "previousStock": 10,
+      "newStock": 15,
+      "change": 5,
+      "reason": "Restock",
+      "adminEmail": "admin@nexura.bd",
+      "timestamp": "2026-10-28T07:13:28.017Z"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "coup-1",
+      "code": "NEXURA10",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "minOrderAmount": 500,
+      "maxDiscount": 500,
+      "startDate": "2026-01-01",
+      "expiryDate": "2026-12-31",
+      "usageLimit": 500,
+      "usedCount": 42,
+      "perCustomerLimit": 2,
+      "isActive": true,
+      "createdAt": "2026-10-28T07:13:28.017Z"
+    },
+    {
+      "id": "coup-2",
+      "code": "FESTIVE200",
+      "discountType": "fixed",
+      "discountValue": 200,
+      "minOrderAmount": 2000,
+      "startDate": "2026-10-01",
+      "expiryDate": "2026-11-30",
+      "usageLimit": 100,
+      "usedCount": 15,
+      "perCustomerLimit": 1,
+      "isActive": true,
+      "createdAt": "2026-10-28T07:13:28.017Z"
+    }
+  ],
+  "deliverySettings": {
+    "insideDhakaFee": 60,
+    "outsideDhakaFee": 100,
+    "dhakaCityAreas": [
+      "Dhanmondi",
+      "Gulshan",
+      "Banani",
+      "Uttara",
+      "Mirpur",
+      "Mohammadpur",
+      "Motijheel",
+      "Badda",
+      "Rampura",
+      "Khilgaon",
+      "Old Dhaka (Puran Dhaka)",
+      "Bashundhara R/A",
+      "Tejgaon",
+      "Malibagh",
+      "Moghbazar",
+      "Shahbagh",
+      "Paltan",
+      "Lalbagh",
+      "New Market",
+      "Cantonment",
+      "Kafrul",
+      "Pallabi",
+      "Hazaribagh",
+      "Kamrangirchar",
+      "Sutrapur",
+      "Kotwali",
+      "Wari",
+      "Gandaria",
+      "Demra",
+      "Jatrabari",
+      "Khilkhet",
+      "Nikunja",
+      "Baridhara",
+      "Shyamoli",
+      "Kallyanpur",
+      "Adabor",
+      "Kalabagan",
+      "Eskaton",
+      "Shantinagar",
+      "Bijoynagar"
+    ]
+  },
+  "cmsSettings": {
+    "heroLabel": "NEXURA.BD",
+    "heroHeadline": "Welcome to Our Store",
+    "heroSubtext": "Browse our latest collection of quality products.",
+    "heroImageUrl": "/images/hero/hero-gadgets.jpg",
+    "hotlineNumber": "+880 01647583320",
+    "whatsappNumber": "971555282918",
+    "supportEmail": "www.nexura.bd@gmail.com",
+    "storeAddress": "House 14, Road 7, Sector 3, Uttara, Dhaka-1230, Bangladesh",
+    "topAnnouncement": "Cash on Delivery Available Across Bangladesh"
+  },
+  "auditLogs": [
+    {
+      "id": "audit-1794498513625-690",
+      "timestamp": "2026-11-12T15:48:33.625Z",
+      "adminEmail": "admin@nexura.bd",
+      "adminName": "Tanvir Hossain (Super Admin)",
+      "role": "super_admin",
+      "action": "Admin Login",
+      "entity": "Auth",
+      "details": "Successful login from 127.0.0.1"
+    },
+    {
+      "id": "audit-1793171617092-879",
+      "timestamp": "2026-10-28T07:13:37.092Z",
+      "adminEmail": "admin@nexura.bd",
+      "adminName": "Tanvir Hossain (Super Admin)",
+      "role": "super_admin",
+      "action": "Admin Login",
+      "entity": "Auth",
+      "details": "Successful login from 127.0.0.1"
+    },
+    {
+      "id": "audit-1",
+      "timestamp": "2026-10-28T07:13:28.017Z",
+      "adminEmail": "admin@nexura.bd",
+      "adminName": "Tanvir Hossain",
+      "role": "super_admin",
+      "action": "System Boot",
+      "entity": "System",
+      "details": "NEXURA.BD Admin Store Engine successfully initialized"
+    }
+  ]
+}
